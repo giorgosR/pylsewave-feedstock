@@ -24,6 +24,7 @@ requirements:
     - scipy
     - cython>=0.24.1
     - cymem
+    - openmp
     - setuptools
     - wheel
   run:
@@ -31,6 +32,7 @@ requirements:
     - numpy
     - matplotlib
     - scipy
+    - openmp
     - cython>=0.24.1
     - cymem
 test:
