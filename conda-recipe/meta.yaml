@@ -19,7 +19,7 @@ requirements:
     - {{ compiler('cxx') }}
   host:
     - python {{ python }}
-    - numpy x.x
+    - numpy
     - matplotlib
     - scipy
     - cython>=0.24.1
@@ -28,7 +28,7 @@ requirements:
     - wheel
   run:
     - python
-    - numpy x.x
+    - numpy
     - matplotlib
     - scipy
     - cython>=0.24.1
